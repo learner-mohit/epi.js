@@ -1,17 +1,19 @@
 const solve = (arr, k) => {
   const result = [];
-  helper(0, [], k, arr, result);
+  helper(0, [], arr, result, k);
   return result;
 };
 
-const helper = (i, subset, k, arr, result) => {
+const helper = (i, subset, arr, result, k) => {
   if (subset.length === k) {
     result.push(subset);
     return;
   }
-  for (let j = i; j < arr.length; j++) {
-    helper(j + 1, subset.concat(arr[j]), k, arr, result);
+  if (i === arr.length) {
+    return;
   }
+  helper(i + 1, subset.concat(arr[i]), arr, result, k);
+  helper(i + 1, subset, arr, result, k);
 };
-console.log(solve(["a", "b", "c"], 3));
+
 console.log(solve(["a", "b", "c"], 2));
