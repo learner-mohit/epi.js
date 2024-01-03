@@ -1,5 +1,5 @@
 
-> This repository contains solutions to the book Elements of Programming Interviews (2015 Edition)
+> This repository contains solutions of the book Elements of Programming Interviews (2015 Edition)
 >
 > All the solutions are in Javascript
 
