@@ -6,9 +6,7 @@ class Item {
 }
 
 const solve = (items, capacity) => {
-  const cache = Array.from({ length: items.length }, () =>
-    Array.from({ length: capacity + 1 }, () => -1)
-  );
+  const cache = new Map();
   return helper(0, capacity, items, cache);
 };
 
@@ -16,16 +14,18 @@ const helper = (i, capacity, items, cache) => {
   if (i === items.length) {
     return 0;
   }
-  if (cache[i][capacity] === -1) {
-    const { weight, value } = items[i];
-    const valueExcluded = helper(i + 1, capacity, items, cache);
-    const valueIncluded =
-      capacity - weight >= 0
-        ? value + helper(i + 1, capacity - weight, items, cache)
-        : 0;
-    cache[i][capacity] = Math.max(valueExcluded, valueIncluded);
+  const key = `${i},${capacity}`;
+  if (cache.has(key)) {
+    return cache.get(key);
   }
-  return cache[i][capacity];
+  const { weight, value } = items[i];
+  let taken = 0;
+  if (capacity >= weight) {
+    taken = value + helper(i + 1, capacity - weight, items, cache);
+  }
+  const notTaken = helper(i + 1, capacity, items, cache);
+  cache.set(key, Math.max(taken, notTaken));
+  return cache.get(key);
 };
 
 const items = [
