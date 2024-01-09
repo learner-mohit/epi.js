@@ -5,7 +5,7 @@
 # Index
 
 - [Recursion](#recursion)
-- [Dynamic Prgramming](#rdynamic-programming)
+- [Dynamic Prgramming](#dynamic-programming)
 
 ## Recursion
 
@@ -25,17 +25,17 @@
 
 ## Dynamic Programming
 
-| Problem | Code                                                                                                               | Video |
-| ------- | ------------------------------------------------------------------------------------------------------------------ | ----- |
-| 17.1    | Count the number of score combinations                                                                             |
-| 17.2    | Compute the Levenshtein distance                                                                                   |
-| 17.3    | Count the number of ways to traverse a 2d array                                                                    |
-| 17.4    | Compute the binomial coefficients                                                                                  |
-| 17.5    | Search for a sequence in a 2d array                                                                                |
-| 17.6    | [The knapsack problem](https://github.com/learner-mohit/epi.js/blob/main/knapsack.js)                              |
-| 17.7    | [The bedbathandbeyond.com problem](https://github.com/learner-mohit/epi.js/blob/main/palindrome-decompositions.js) |
-| 17.8    | [Find the minimum weight in a triangle](https://github.com/learner-mohit/epi.js/blob/main/generate-all-trees.js)   |
-| 17.9    | [Pick up coins for maximum gain](https://github.com/learner-mohit/epi.js/blob/main/sudoku.js)                      |
-| 17.10   | [Count the number of moves to climb stairs](https://github.com/learner-mohit/epi.js/blob/main/gray-code.js)        |
-| 17.11   | [The pretty printing problem](https://github.com/learner-mohit/epi.js/blob/main/diameter-tree.js)                  |
-| 17.12   | [Find the longest nondecreasing subsequence](https://github.com/learner-mohit/epi.js/blob/main/diameter-tree.js)   |
+| Problem | Code                                                                                                            | Video |
+| ------- | --------------------------------------------------------------------------------------------------------------- | ----- |
+| 17.1    | Count the number of score combinations                                                                          |
+| 17.2    | Compute the Levenshtein distance                                                                                |
+| 17.3    | Count the number of ways to traverse a 2d array                                                                 |
+| 17.4    | Compute the binomial coefficients                                                                               |
+| 17.5    | Search for a sequence in a 2d array                                                                             |
+| 17.6    | [The knapsack problem](https://github.com/learner-mohit/epi.js/blob/main/knapsack.js)                           |
+| 17.7    | The bedbathandbeyond.com problem                                                                                |
+| 17.8    | Find the minimum weight in a triangle                                                                           |
+| 17.9    | Pick up coins for maximum gain                                                                                  |
+| 17.10   | [Count the number of moves to climb stairs](https://github.com/learner-mohit/ctci.js/blob/main/climb-stairs.js) |
+| 17.11   | The pretty printing problem                                                                                     |
+| 17.12   | [Find the longest nondecreasing subsequence](https://github.com/learner-mohit/epi.js/blob/main/lis.js)          |
