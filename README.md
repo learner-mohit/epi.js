@@ -22,3 +22,20 @@
 | 16.9    | [Implement Sudoku solver](https://github.com/learner-mohit/epi.js/blob/main/sudoku.js)                                 |
 | 16.10   | [Compute Gray code](https://github.com/learner-mohit/epi.js/blob/main/gray-code.js)                                    |
 | 16.11   | [Compute diameter of a tree](https://github.com/learner-mohit/epi.js/blob/main/diameter-tree.js)                       |
+
+## Dynamic Programming
+
+| Problem | Code                                                                                                               | Video |
+| ------- | ------------------------------------------------------------------------------------------------------------------ | ----- |
+| 17.1    | Count the number of score combinations                                                                             |
+| 17.2    | Compute the Levenshtein distance                                                                                   |
+| 17.3    | Count the number of ways to traverse a 2d array                                                                    |
+| 17.4    | Compute the binomial coefficients                                                                                  |
+| 17.5    | Search for a sequence in a 2d array                                                                                |
+| 17.6    | [The knapsack problem](https://github.com/learner-mohit/epi.js/blob/main/knapsack.js)                              |
+| 17.7    | [The bedbathandbeyond.com problem](https://github.com/learner-mohit/epi.js/blob/main/palindrome-decompositions.js) |
+| 17.8    | [Find the minimum weight in a triangle](https://github.com/learner-mohit/epi.js/blob/main/generate-all-trees.js)   |
+| 17.9    | [Pick up coins for maximum gain](https://github.com/learner-mohit/epi.js/blob/main/sudoku.js)                      |
+| 17.10   | [Count the number of moves to climb stairs](https://github.com/learner-mohit/epi.js/blob/main/gray-code.js)        |
+| 17.11   | [The pretty printing problem](https://github.com/learner-mohit/epi.js/blob/main/diameter-tree.js)                  |
+| 17.12   | [Find the longest nondecreasing subsequence](https://github.com/learner-mohit/epi.js/blob/main/diameter-tree.js)   |
