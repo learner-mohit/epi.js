@@ -9,13 +9,13 @@
 
 ## Recursion
 
-| Problem | Code                                                                                                                   | Video |
-| ------- | ---------------------------------------------------------------------------------------------------------------------- | ----- |
+| Problem | Code                                                                                                                   | Video                                               |
+| ------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | 16.1    | [The Towers of Hanoi problem](https://github.com/learner-mohit/epi.js/blob/main/tower-of-hanoi.js)                     |
 | 16.2    | [Generate all nonattacking placements of n Queens](https://github.com/learner-mohit/ctci.js/blob/main/eight-queens.js) |
-| 16.3    | [Generate permutations](https://github.com/learner-mohit/ctci.js/blob/main/permutation.js)                             |
-| 16.4    | [Generate the power set](https://github.com/learner-mohit/ctci.js/blob/main/power-set.js)                              |
-| 16.5    | [Generate all subsets of size k](https://github.com/learner-mohit/epi.js/blob/main/subset-length-k.js)                 |
+| 16.3    | [Generate permutations](https://github.com/learner-mohit/ctci.js/blob/main/permutation.js)                             | [Link](https://youtu.be/cYgilPHUiug?feature=shared) |
+| 16.4    | [Generate the power set](https://github.com/learner-mohit/ctci.js/blob/main/power-set.js)                              | [Link](https://youtu.be/w-ZQvBoMDP8?feature=shared) |
+| 16.5    | [Generate all subsets of size k](https://github.com/learner-mohit/epi.js/blob/main/subset-length-k.js)                 | [Link](https://youtu.be/NtZ5JyTH1Aw?feature=shared) |
 | 16.6    | [Generate strings of matched parens](https://github.com/learner-mohit/epi.js/blob/main/generate-parens.js)             |
 | 16.7    | [Generate palindromic decompositions](https://github.com/learner-mohit/epi.js/blob/main/palindrome-decompositions.js)  |
 | 16.8    | [Generate binary trees](https://github.com/learner-mohit/epi.js/blob/main/generate-all-trees.js)                       |
