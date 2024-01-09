@@ -54,3 +54,6 @@ if (solve(grid)) {
 } else {
   console.log("No solution found");
 }
+
+// TC: O(9^(n*n))
+// C: O(n*n)

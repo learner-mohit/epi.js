@@ -23,3 +23,6 @@ const helper = (node) => {
   );
   return new HeightAndDiameter(height, diameter);
 };
+
+// TC: O(n)
+// SC: O(log(n))

@@ -1,7 +1,7 @@
 const NUM_PEGS = 3;
 
 const solve = (numRings) => {
-  let result = [];
+  const result = [];
   helper(numRings, 0, 1, 2, result);
   return result;
 };
@@ -16,3 +16,6 @@ const helper = (n, A, B, C, result) => {
 };
 
 console.log(solve(3));
+
+// TC: O(2^n)
+// SC: O(2^n)

@@ -26,3 +26,6 @@ const solve = (numNodes) => {
   }
   return result;
 };
+
+// TC: O(Catalan(n))
+// SC: O(Catalan(n))

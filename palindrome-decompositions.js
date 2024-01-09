@@ -27,3 +27,6 @@ const isPalindrome = (s) => {
 
 console.log(solve("1881"));
 console.log(solve("0204451881"));
+
+// TC: O(n*2^n)
+// SC: O(n*2^n)

@@ -20,3 +20,6 @@ const helper = (i, prev, nums, cache) => {
 };
 const nums = [10, 9, 2, 5, 3, 7, 101, 18];
 console.log(solve(nums));
+
+// TC: O(n^2)
+// SC: O(n^2)

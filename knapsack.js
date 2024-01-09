@@ -37,3 +37,6 @@ const items = [
 
 const capacity = 5;
 console.log(solve(items, capacity));
+
+// TC: O(n*capacity)
+// SC: O(n*capacity)

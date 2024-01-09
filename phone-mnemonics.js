@@ -27,3 +27,6 @@ const helper = (i, prefix, phoneNumber, map, result) => {
 };
 
 console.log(solve("23"));
+
+// TC: O(n*4^n)
+// SC: O(n*4^n)

@@ -18,3 +18,6 @@ const helper = (open, closed, brackets, n, result) => {
 };
 
 console.log(solve(3));
+
+// TC: O(Catalan(n))
+// SC: O(Catalan(n))
